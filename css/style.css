@@ -1,0 +1,374 @@
+/* Topbar */
+
+.top-bar {
+    background-color: #316DC3;
+    color: white;
+    padding: 12px;
+}
+
+.sticky-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+.top-bar ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.top-bar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.top-bar ul li a {
+    color: white;
+}
+
+.top-bar p {
+    margin-bottom: 0 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.top-bar #links a {
+    float: right;
+    background-color: #F5F5F5;
+    margin-left: 5px;
+    color: #427900;
+    font-size: 11px;
+    padding: 4px 8px;
+}
+
+.navbar {
+    background-color: #f7f8fa !important;
+}
+
+.navbar a {
+    color: #666666 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar li {
+    margin-right: 15px;
+}
+
+.nav-item a:hover {
+    background-color: #316DC3;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.navbar-nav .dropdown-menu {
+    padding: 0 !important;
+}
+
+.dropdown-item {
+    padding: .5rem 1rem !important;
+    font-size: 13px !important;
+    font-weight: normal;
+}
+
+.dropdown-item:hover {
+    background-color: #316DC3 !important;
+    border-radius: 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-radius: 0;
+}
+
+.hr-line {
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+    text-align: center;
+}
+
+.hr-line::after {
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background: #427900;
+}
+
+.hr-line::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+    background: #427900;
+}
+
+
+
+/* Banner */
+#banner img {
+    width: 100%;
+}
+
+/* Footer */
+.widgets {
+    background-color: rgb(37, 39, 46);
+    color: #bbb;
+    padding: 3% 0;
+}
+
+#info ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#info ul li i {
+    color: #427900;
+}
+
+.widgets h6 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+#social-icons ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5%;
+}
+
+#social-icons ul li {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#social-icons ul li a {
+    color: white;
+}
+
+.bottom-bar {
+    background-color: #316DD9;
+    padding: 10px 0;
+    font-size: 12px;
+    color: white;
+}
+
+
+#main-text {
+    background-color: #f7f8fa;
+    color: #666666;
+    padding: 4% 0;
+}
+
+#main-text .hr-line {
+    margin-bottom: 30px;
+}
+
+.heading {
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+}
+
+.heading span {
+    color: #427900;
+}
+
+
+#stats {
+    background-color: #2755E9;
+    padding: 5% 0;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+#stats .container {
+    min-width: 1280px;
+}
+
+#stats h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+#stats span {
+    color: #00FF00;
+    font-size: 18px;
+}
+
+#news .container {
+    background-color: #316DC3;
+    color: white;
+    margin: 10px auto;
+}
+
+#news span {
+    color: #00FF00;
+}
+
+#doings {
+    background-color: #f7f8fa;
+    padding: 4%;
+    text-align: center;
+}
+
+#doings .hr-line {
+    margin-bottom: 30px;
+}
+
+#doings .col-lg-4 {
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+    margin: 10px;
+    max-width: 31%;
+}
+
+#doings h6 {
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    margin-top: 15px;
+}
+
+#gallery {
+    padding: 3%;
+    text-align: center;
+}
+
+#gallery ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+#gallery ul li {
+    display: inline-block;
+}
+
+#gallery ul li img {
+    width: 220px;
+    height: 151px;
+}
+
+#missions {
+    padding: 3%;
+}
+
+#missions .col-lg-6 {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #f7f8fa;
+    margin: 10px;
+    max-width: 47%;
+}
+
+#missions h3,
+#missions h5 {
+    font-family: 'Merriweather', serif !important;
+    color: #316DC3;
+}
+
+#missions img {
+    margin-right: 20px;
+}
+
+#missions span {
+    font-family: 'Merriweather', serif !important;
+    color: #316DC3;
+    font-size: 18px;
+}
+
+
+
+/* Small Screen */
+@media only screen and (max-width: 600px) {
+
+    .top-bar .col-lg-3 {
+        text-align: center !important;
+        margin: 8px 0 !important;
+    }
+
+    .top-bar #links a {
+        float: none;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-brand {
+        width: 78%;
+        margin-left: 15px;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+    .navbar li {
+        margin: 0;
+        padding: 0 15px;
+        background-color: white;
+        border-bottom: 1px solid #e3e3e3;
+    }
+
+    #bar {
+        color: #666666 !important;
+    }
+
+    .widgets #info,
+    .widgets #useful-links,
+    .widgets #social-icons {
+        margin-top: 15px;
+    }
+
+    #stats .container {
+        min-width: 100%;
+    }
+
+    #doings .col-lg-4 {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    #missions .col-lg-6 {
+        max-width: 100%;
+    }
+
+    .sticky-nav {
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+        margin-left: 0px;
+        width: 100% !important;
+        left: 0px;
+    }
+
+    .nav-item a:hover {
+        color: #666666 !important;
+        background-color: white !important;
+    }
+
+    .dropdown-menu {
+        border: 0 !important;
+    }
+
+    .dropdown-item {
+        padding-left: 0 !important;
+    }
+}
